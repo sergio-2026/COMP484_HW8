@@ -5,18 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sergio Ruelas | Resume</title>
 
-    <!--Step 5: Google Fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!--Step 4: Link to external stylesheet -->
+    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
-    <!-- // Intro -->
+<body id="top">
+    <!-- Navigation -->
+    <nav class="site-nav">
+        <div class="content-wrap">
+            <a href="#top">Home</a>
+            <a href="#work">Work Experience</a>
+            <a href="#education">Education</a>
+            <a href="files/sergio_ruelas_resume.pdf" download>Download Resume (PDF)</a>
+        </div>
+    </nav>
+
+    <!-- Intro -->
     <header>
         <div class="content-wrap">
             <img src="images/sergio_resume.png" alt="Sergio Ruelas" class="profile-img column-narrow">
@@ -33,8 +45,8 @@
     </header>
     
     <main> 
-        <!-- //Step 2: Work Experience -->
-        <section class="work-experience">
+        <!-- Work Experience -->
+        <section class="work-experience" id="work">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
@@ -166,7 +178,7 @@
         </section>
 
         <!-- // Education -->
-        <section class="education">
+        <section class="education" id="education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
@@ -190,8 +202,12 @@
             <h2>Let's Keep in Touch!</h2>
             <!-- Social media and contact links. Add or remove any networks. -->
             <div class="contact-info">
-                <a href="mailto:ruelas.sergio@gmail.com">ruelas.sergio@gmail.com</a>
-                <a href="https://www.linkedin.com/in/sergio-ruelas-8397689a" target="_blank">LinkedIn</a>
+                <a href="mailto:ruelas.sergio@gmail.com">
+                    <i class="fa-solid fa-envelope"></i> ruelas.sergio@gmail.com
+                </a>
+                <a href="https://www.linkedin.com/in/sergio-ruelas-8397689a" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
             </div>
             <p>Copyright 2026 by Sergio Ruelas</p>
         </div>

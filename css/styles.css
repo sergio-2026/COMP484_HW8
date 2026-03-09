@@ -85,12 +85,50 @@ h3 {
     font-size: 1.25rem;
 }
 
+/* Navigation
+------------------------------------*/
+.site-nav {
+    position: fixed;        /* stay at top when scrolling */
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #111827;  /* dark bar */
+    z-index: 1000;
+}
+
+.site-nav .content-wrap {
+    padding: 10px 50px;     /* smaller padding than sections */
+}
+
+.site-nav a {
+    color: #F4F4F4;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+}
+
+.site-nav a:hover {
+    color: #4A90E2;
+}
+
+/* push page content below fixed nav */
+header {
+    margin-top: 70px;
+}
+
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-    background-color: #22364A;
+    background:
+        linear-gradient(
+            rgba(17, 24, 39, 0.85),
+            rgba(17, 24, 39, 0.85)
+        ),
+        url("../images/work-bg.png") center/cover no-repeat;
     color: #F4F4F4;
 }
+
 
 /* Education
 ------------------------------------*/
