@@ -1,0 +1,113 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Color Palette
+# - color 1: #1B2A3B (Dark Navy - main background)
+# - color 2: #22364A (Slate Blue - header & footer)
+# - color 3: #4A90E2 (Steel Blue - section accents)
+# - color 4: #F4F4F4 (Light Gray - text)
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background-color: #1B2A3B;
+    color: #F4F4F4;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;   /*auto clears float */
+}
+
+.column-narrow {
+    width: 30%;         /*narrow column width */
+    float: left;        /*float left for two-column layout */
+    padding-right: 3%;  /*space between columns */
+    min-height: 175px;  /*prevents layout collapse */
+}
+
+.column-wide {
+    width: 70%;         /*wide column width */
+    float: left;        /*float left for two-column layout */
+    min-height: 225px;  /* prevents layout collapse */
+}
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    background-color: #22364A;
+    color: #F4F4F4;
+}
+
+footer {
+    background-color: #22364A;
+    color: #F4F4F4;
+    text-align: center;
+}
+
+header h2 {
+    color: #F4F4F4;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+h2, h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    color: #4A90E2;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background-color: #22364A;
+    color: #F4F4F4;
+}
+
+/* Education
+------------------------------------*/
+.education {
+    background-color: #22364A;
+    color: #F4F4F4;
+}
+
+/* Footer Links
+------------------------------------*/
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Profile Image
+------------------------------------*/
+.profile-img {
+    border-radius: 50%;
+}
