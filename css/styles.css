@@ -123,10 +123,10 @@ header {
     background:
         radial-gradient(
             circle at center,
-            rgba(17, 24, 39, 0.3),
-            rgba(17, 24, 39, 0.95)
+            rgba(17, 24, 39, 0.4),     /* lighter in center */
+            rgba(17, 24, 39, 0.95)     /* darker at edges */
         ),
-        url("../images/work-bg.png") center/cover no-repeat;
+        url("../images/work-bg.jpg") center/cover no-repeat;
     color: #F4F4F4;
 }
 
