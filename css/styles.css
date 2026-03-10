@@ -123,8 +123,8 @@ header {
     background:
         radial-gradient(
             circle at center,
-            rgba(17, 24, 39, 0.4),     /* lighter in center */
-            rgba(17, 24, 39, 0.95)     /* darker at edges */
+            rgba(17, 24, 39, 0.4),    
+            rgba(17, 24, 39, 0.95)     
         ),
         url("../images/work-bg.jpg") center/cover no-repeat;
     color: #F4F4F4;
